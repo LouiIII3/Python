@@ -1,3 +1,4 @@
+
 def calculate_rectangle_area(x, y):
     return x * y
 
