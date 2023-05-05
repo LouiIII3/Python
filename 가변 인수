@@ -1,0 +1,11 @@
+def summation(a, b, *args):
+    #*args는 무조건 맨뒤에 놔야한다.
+    return a + b + sum(args)
+    print(args)
+    # 출력값은 () 로나온다.
+    print(type(args))
+    #출력값은 <class 'tuple'>로 나온다.
+    # Return 뒤에 다른 명령문이 오면 어떻게 동작하는가?
+
+print(summation(1,2))
+print(summation(1,2,3,4,5))
