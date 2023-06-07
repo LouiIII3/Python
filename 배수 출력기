@@ -1,0 +1,19 @@
+input_number = int(input())
+
+print(f"입력한 숫자: {input_number}")
+if input_number % 2 == 0:
+    print(f"2의 배수: True")
+else:
+    print(f"2의 배수: False")
+if input_number % 3 == 0:
+    print(f"3의 배수: True")
+else:
+    print(f"3의 배수: False")
+if input_number % 5 == 0:
+    print(f"5의 배수: True")
+else:
+    print(f"5의 배수: False")
+if input_number % 7 == 0:
+    print(f"7의 배수: True")
+else:
+    print(f"7의 배수: False")
