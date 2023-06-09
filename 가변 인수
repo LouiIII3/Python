@@ -6,6 +6,7 @@ def summation(a, b, *args):
     print(type(args))
     #출력값은 <class 'tuple'>로 나온다.
     # Return 뒤에 다른 명령문이 오면 어떻게 동작하는가?
+    #Return 뒤에 다른 명령문이 오면 작동을 안한다
 
 print(summation(1,2))
 print(summation(1,2,3,4,5))
