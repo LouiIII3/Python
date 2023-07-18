@@ -1,0 +1,3 @@
+scores = {"수학":0 ,"영어":10}
+for sub, score in scores.items():
+    print(sub.ljust(8), str(score).rjust(4), sep=":")        
