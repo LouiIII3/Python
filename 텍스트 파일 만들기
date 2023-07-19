@@ -1,0 +1,6 @@
+for i in range(1, 51):
+    with open(f"{i}주차.txt", 'w', encoding="utf8") as report_file:
+        report_file.write(f"-{i}주차 주간보고-\n")
+        report_file.write("부서:\n")
+        report_file.write("이름:\n")
+        report_file.write("업무요약 :")
