@@ -6,6 +6,13 @@ class Unit:
         self.hp = hp
         self.speed = speed
         print("{0} 유닛을 생성했습니다.".format(name))
+
+
+    def __ init__(self, name, hp, speed):
+        self.name = name
+        self.hp = hp
+        self.speed = speed
+        print("{0} 유닛을 생성했습니다."format(name))
         
         
     def move(self, location):
